@@ -18,3 +18,16 @@ var moneyAvailable = 100;
 var orangePrice = 5;
 var orangeQuantity = moneyAvailable / orangePrice;
 console.log(orangeQuantity);
+
+//special edition
+var n1 = 0.1;
+var n2 = 0.2;
+var total = n1 + n2;
+console.log(parseFloat (total.toFixed(2)));
+// modulodivision
+var number1 = 17;
+var number2 = 3;
+var divided = number1 / number2;
+var remaining = number1 % number2;
+console.log(divided);
+console.log(remaining);
